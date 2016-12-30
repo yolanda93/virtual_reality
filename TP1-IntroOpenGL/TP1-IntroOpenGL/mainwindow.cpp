@@ -14,8 +14,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QSurfaceFormat::setDefaultFormat(format);
 
     ui->setupUi(this);
-
-
+    setWindowTitle("Example 4 : OpenGL 3.3 with QOpenGL classes");
 
 }
 

@@ -16,6 +16,8 @@
 
 #include <glm/mat4x4.hpp>
 #include <glm/vec3.hpp>
+#include <glm/gtx/transform.hpp>
+#include "glm/glm.hpp"
 #include <glm/trigonometric.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -41,6 +43,17 @@ private:
     QOpenGLShaderProgram* m_programme;
 
     glm::mat4 m_matrix;    //matrice de placement
+
+private slots:
+    void update();
+    void startAnimation();
+    void changeFov(int angle);
+
+private:
+    QTimer* m_timer;
+    GLfloat m_angleY;
+    bool animate;
+    bool changeAngle;
 };
 
 #endif // WIDGETOPENGL_H
