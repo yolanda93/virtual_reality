@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file alias="simple.frag">../../RV_exemplesOpenGL/RV_exemple4/simple.frag</file>
+        <file alias="simple.vert">../../RV_exemplesOpenGL/RV_exemple4/simple.vert</file>
+    </qresource>
+</RCC>
