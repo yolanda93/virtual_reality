@@ -10,7 +10,17 @@ Introduction to virtual reality
 5. Interaction with the widget OpenGL
 6. Modification of the vertex shader in real time
 
+## TP2 - OpenGL Textures
 
+ 1. Camera class that implements the view() and projection() methods
+ 2. DrawableOpenGL is a prototype to implement a drawable object in OpenGL
+ 3. Cube class implements a cube that inherit from DrawableOpenGL
+ 4. Add textures to the cubes
+ 
+## TP3 - Rubik's cube Game
+
+
+## TP4 - Moving Map Game
 
 
 ## Libraries
